@@ -44,22 +44,6 @@ nav a:hover {
     color: #007BFF;
 }
 
-.logo {
-
-    font-size: 8vw; 
-    font-weight: bold;
-    color: #151515;
-    width: 80%; 
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80%; 
-    margin: auto;
-    margin-top: 200px;
-    word-wrap: break-word; 
-}
-
 
 .slogan {
     font-size: 20px;
