@@ -125,7 +125,8 @@ nav a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
-    height: 500px;
+    height: auto;
+    flex-direction: row; 
 }
 
 .project img {
@@ -153,6 +154,21 @@ nav a:hover {
     line-height: 1.5;
 }
 
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .project img {
+        width: 100%; 
+    }
+
+    .project-info {
+        width: 100%; 
+        text-align: center; 
+    }
+}
 
 
 
